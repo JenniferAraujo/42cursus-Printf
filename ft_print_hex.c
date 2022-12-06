@@ -14,7 +14,7 @@
 
 /*
 	DESCRIÇÃO: print_hex() imprime um número em formato hexadecimal em minúsculas
-	e minúsculas.
+	e maiúsculas.
 */
 
 int	ft_print_hex(unsigned int n, int c)

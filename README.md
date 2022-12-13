@@ -19,7 +19,7 @@ This project aims to recreate the behavior of printf, including its basic error 
 * `<%u>`: [ft_print_unsig](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_unsig.c) - prints an unsigned
 
 ### Functions in `<ft_printf.c>`
-* [ft_printf](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.c) - initialization function: start/end variadic arguments functions
+* [ft_printf](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.c) - initialization function: start/end variable argument functions where argument numbers are undefined
 * [ft_format](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.c) - checks each format specifier and calls as functions according to the collected format specifiers.
 
 ### Functions in `<ft_putchar.c>`

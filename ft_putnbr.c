@@ -12,10 +12,6 @@
 
 #include "ft_printf.h"
 
-/*
-	DESCRIÇÃO: tot() trata os números negativos.
-*/
-
 static int	ft_tot(int n)
 {
 	if (n < 0)

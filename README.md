@@ -42,6 +42,7 @@ The library is written in C language and thus needs the -cc compiler and some st
 1. Compiling the project
 
          $ make
+         $ make fclean
     ![thumbnail_image2](https://user-images.githubusercontent.com/106436743/205688200-3e0f2615-7cb9-4ad6-a027-4cdbebba4220.jpg)
 
 2. Execute your program

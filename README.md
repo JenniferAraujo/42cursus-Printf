@@ -10,26 +10,26 @@ This project aims to recreate the behavior of printf, including its basic error 
 * Flags `<-O.*>` and minimum field width with all conversions
 
 ### Functions in `<ft_print_hex.c>`
-* `<%x>` || `<%X>`
-_hex](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_hex.c) - prints a number in hexadecimal format in lowercase and uppercase
+* `<%x>` || `<%X>`: [ft_print_hex](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_hex.c) - prints a number in hexadecimal format in lowercase and uppercase
 
 ### Functions in `<ft_print_pointer.c>` (and auxiliary functions)
-* [ft_print_pointer](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_hex.c) - prints a pointer in hexadecimal format
+* `<%p>`: [ft_print_pointer](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_hex.c) - prints a pointer in hexadecimal format
 
 ### Functions in `<ft_print_unsig.c>` (and auxiliary functions)
-* [ft_print_unsig](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_unsig.c) - prints an unsigned
+* `<%u>`: [ft_print_unsig](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_print_unsig.c) - prints an unsigned
 
 ### Functions in `<ft_printf.c>`
-* [ft_printf](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.c) - Initialization function: start/end variadic arguments functions
+* [ft_printf](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.c) - initialization function: start/end variadic arguments functions
+* [ft_format](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.c) - checks each format specifier and calls as functions according to the collected format specifiers.
 
 ### Functions in `<ft_putchar.c>`
-* [ft_putchar](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_putchar.c) - writes a specified character to the output unit provided
+* `<%c>`: [ft_putchar](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_putchar.c) - writes a specified character to the output unit provided
 
 ### Functions in `<ft_putnbr.c>` (and auxiliary functions)
-* [ft_putnbr](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_putnbr.c) - prints the characters representing the numbers
+* `<%i>` || `<%d>`: [ft_putnbr](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_putnbr.c) - prints the characters representing the numbers
 
 ### Functions in `<ft_putstr.c>`
-* [ft_putstr](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_putstr.c) - writes the string to the given output unit
+* `<%s>`: [ft_putstr](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_putstr.c) - writes the string to the given output unit
 
 ## Makefile 
 * [ft_printf.h](https://github.com/JenniferAraujo/42cursus-01-Printf/blob/main/ft_printf.h)

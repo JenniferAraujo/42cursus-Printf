@@ -1,6 +1,6 @@
 # 42cursus-01-Printf
 ## :books: About the project
-This project aims to recreate the behavior of printf, including its basic error handling and some of its flags. We mainly learning about variadic arguments.
+This project aims to recreate the behavior of printf, including it's basic error handling and some of it's flags. We mainly learning about variadic arguments.
 
 ## Score
   ![thumbnail_IMG_9161](https://user-images.githubusercontent.com/106436743/205688203-a9676c49-daf1-4ace-a23e-432c8af1983f.jpg)
